@@ -17,7 +17,7 @@ import os
 
 
 
-llm = OpenAI(openai_api_key="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")
+llm = OpenAI(openai_api_key="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")
 
 embeddings = HuggingFaceEmbeddings()
 
