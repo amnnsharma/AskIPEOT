@@ -44,5 +44,6 @@ try:
                 is_user=True,
             )
             message(generated_response)
-except:
+except Exception as e:
     st.write("Wait for some time! Too many requests :)")
+    st.write(e)
