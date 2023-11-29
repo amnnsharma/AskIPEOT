@@ -50,5 +50,5 @@ try:
             )
             message(generated_response)
 except Exception as e:
-    st.write("Wait for some time! Too many requests :)")
+    #st.write("Wait for some time! Too many requests :)")
     st.write(e)
